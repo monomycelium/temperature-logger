@@ -1,0 +1,13 @@
+# Wi-Fi credentials (any subdirectory)
+arduino_secrets.h
+
+# Compiled C server
+/server/server
+/server/server.new
+
+# Runtime temperature data
+/server/profiles/
+
+# Other generated files
+*.o
+.DS_Store
