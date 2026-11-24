@@ -24,7 +24,7 @@ constexpr uint8_t OLED_ADDR  = 0x3C;
 
 // ----- Configuration -----
 constexpr char UPLOAD_URL[] = "http://192.168.18.197:6767/temperature";
-constexpr uint64_t UPLOAD_INTERVAL_US = 60ULL * 1000000ULL;
+constexpr uint64_t UPLOAD_INTERVAL_US = 3ULL * 60ULL * 1000000ULL; // 3 minutes
 constexpr uint32_t QUICK_VIEW_MS = 5000;
 constexpr uint32_t LONG_TOUCH_MS = 1500;
 constexpr uint32_t LIVE_REFRESH_MS = 2000;
